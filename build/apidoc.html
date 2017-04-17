@@ -61,12 +61,117 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.line-by-line">module line-by-line</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.line-by-line.line-by-line">
+            function <span class="apidocSignatureSpan"></span>line-by-line
+            <span class="apidocSignatureSpan">(filepath, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.line-by-line.toString">
+            function <span class="apidocSignatureSpan">line-by-line.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.line-by-line.toString">module line-by-line.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.line-by-line.toString.toString">
+            function <span class="apidocSignatureSpan">line-by-line.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.line-by-line" id="apidoc.module.line-by-line">module line-by-line</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.line-by-line.line-by-line" id="apidoc.element.line-by-line.line-by-line">
+        function <span class="apidocSignatureSpan"></span>line-by-line
+        <span class="apidocSignatureSpan">(filepath, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">line-by-line = function (filepath, options) {
+	var self = this;
+
+	this._filepath = path.normalize(filepath);
+	this._encoding = options &#x26;&#x26; options.encoding || &#x27;utf8&#x27;;
+	this._skipEmptyLines = options &#x26;&#x26; options.skipEmptyLines || false;
+	this._streamOptions = { encoding: this._encoding };
+
+	if (options &#x26;&#x26; options.start) {
+		this._streamOptions.start = options.start;
+	}
+
+	if (options &#x26;&#x26; options.end) {
+		this._streamOptions.end = options.end;
+	}
+
+	this._readStream = null;
+	this._lines = [];
+	this._lineFragment = &#x27;&#x27;;
+	this._paused = false;
+	this._end = false;
+	this._ended = false;
+
+	events.EventEmitter.call(this);
+
+	setImmediate(function () {
+		self._initStream();
+	});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.line-by-line.toString" id="apidoc.element.line-by-line.toString">
+        function <span class="apidocSignatureSpan">line-by-line.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.line-by-line.toString" id="apidoc.module.line-by-line.toString">module line-by-line.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.line-by-line.toString.toString" id="apidoc.element.line-by-line.toString.toString">
+        function <span class="apidocSignatureSpan">line-by-line.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
