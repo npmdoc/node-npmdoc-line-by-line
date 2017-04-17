@@ -1,9 +1,11 @@
 # api documentation for  [line-by-line (v0.1.5)](https://github.com/Osterjour/line-by-line)  [![npm package](https://img.shields.io/npm/v/npmdoc-line-by-line.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-line-by-line) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-line-by-line.svg)](https://travis-ci.org/npmdoc/node-npmdoc-line-by-line)
 #### A NodeJS module that helps you reading large text files, line by line, without buffering the files into memory.
 
-[![NPM](https://nodei.co/npm/line-by-line.png?downloads=true)](https://www.npmjs.com/package/line-by-line)
+[![NPM](https://nodei.co/npm/line-by-line.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/line-by-line)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-line-by-line/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-line-by-line_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-line-by-line/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-line-by-line/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-line-by-line/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-line-by-line/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-line-by-line/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-line-by-line/build/screenCapture.npmPackageListing.svg)
 
@@ -17,16 +19,14 @@
 
 {
     "author": {
-        "name": "Markus Ostertag",
-        "email": "mo@mo-its.de"
+        "name": "Markus Ostertag"
     },
     "bugs": {
         "url": "https://github.com/Osterjour/line-by-line/issues"
     },
     "contributors": [
         {
-            "name": "Markus von der Wehd",
-            "email": "mvdw@mwin.de"
+            "name": "Markus von der Wehd"
         }
     ],
     "dependencies": {},
@@ -59,13 +59,11 @@
     "main": "line-by-line.js",
     "maintainers": [
         {
-            "name": "osterjour",
-            "email": "mo@mo-its.de"
+            "name": "osterjour"
         }
     ],
     "name": "line-by-line",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/Osterjour/line-by-line.git"
@@ -76,16 +74,6 @@
     "version": "0.1.5"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module line-by-line](#apidoc.module.line-by-line)
-
-
-
-# <a name="apidoc.module.line-by-line"></a>[module line-by-line](#apidoc.module.line-by-line)
 
 
 
