@@ -1,4 +1,7 @@
-# api documentation for  [line-by-line (v0.1.5)](https://github.com/Osterjour/line-by-line)  [![npm package](https://img.shields.io/npm/v/npmdoc-line-by-line.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-line-by-line) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-line-by-line.svg)](https://travis-ci.org/npmdoc/node-npmdoc-line-by-line)
+# npmdoc-line-by-line
+
+#### basic api documentation for  [line-by-line (v0.1.5)](https://github.com/Osterjour/line-by-line)  [![npm package](https://img.shields.io/npm/v/npmdoc-line-by-line.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-line-by-line) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-line-by-line.svg)](https://travis-ci.org/npmdoc/node-npmdoc-line-by-line)
+
 #### A NodeJS module that helps you reading large text files, line by line, without buffering the files into memory.
 
 [![NPM](https://nodei.co/npm/line-by-line.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/line-by-line)
@@ -71,7 +74,8 @@
     "scripts": {
         "test": "jshint ."
     },
-    "version": "0.1.5"
+    "version": "0.1.5",
+    "bin": {}
 }
 ```
 
